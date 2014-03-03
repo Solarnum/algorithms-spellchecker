@@ -1,3 +1,0 @@
-#ifndef _spellChecker
-#define _spellChecker
-#include <iostream>
