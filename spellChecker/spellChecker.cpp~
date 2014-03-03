@@ -1,0 +1,30 @@
+/*
+Intro to Algorithms
+Project 1 - Spell Checker
+Author: Charlie Beckwith
+Date: 3/1/14
+
+Description: Reads in a text file to build a dictionary, then can load a file and spell check words against it. 
+*/
+
+#include <iostream>
+#include <vector>
+#include <list>
+#include <stdio.h>
+#include <time.h>
+#include <string>
+#include<unordered_map>
+
+using std::cout;
+using std::cin;
+using std::endl;
+using std::vector;
+using std::list;
+
+struct wordentry{
+public:
+  int id;
+  string word;
+};
+
+class ha

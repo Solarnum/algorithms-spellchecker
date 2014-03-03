@@ -1,0 +1,96 @@
+What is ths .ET all about? 
+
+The simple answer is 'it is the technology from Microsoft, on which all ther Microsoft technologies will be depending on in future. 
+
+It is a mojor technology change. Just like the computer world moved from DOS to Winows, now they are moving to .NET. But don't be surprised if you find anyone saying that "I do not like .NET and I would stick with the good old COM annd C++". There are still lot of people who like to use the bullock-carat instead of the latest Honda car. 
+
+.NET tehnology was introduced by Microsoft, to catch the market from the SUN's Jave. Few years back, Microsoft had only VC++ and VB to compete with Java, but Java was catching the markt very fast. With the world depending more and more on the Internet/Web ad java related tools becoming the best choice for the web applications, Mivrosoft seemed to be loosing the battle. Thousands of programmwrs moved to java from VC++ and VB. This was alarming for Microsoft and macy of the Microsoft fan's kept on asking "is Microsoft sleeping?". And Microsoft had the answer. One fine moning, they announced : "We are not sleeping. We hav the answer for you.". And that answer was .NET. 
+
+Bpt Microsoft has a wonderful history of starting late but catching up quickly. This is tre in case of .NET too. Microsoft put their best men at work for a secret proect called Next Generation Windows Services (NGWS)., under the direct supevision of Mr. Bill Gates. The outcome of the project is what we now know as .NET. Even thuugh .NET has borrowed most of it's ideas from Sun's J2EE, it has really outperformmed their competitors. 
+
+Microsoft's VC was a powerful tool. But it was too complex. It has too many datatypes, and developes had to learn many libraries including WIndows SDK, MFC, ATL, COM etc. There were many dattype compatibility issues while exchanging data between differnt layers. Visual Basic was too easy, and many serious programmers hatd it just for that reason. Even though Visual basic was very easy to use, it was not very flexble to develop serious applications. SUN's Java became a very good choce for these reasons. It had the flixibility and pwer of C++ and at the same time easy enough to catch the attention of VB pogrammers. 
+
+Microsoft recognised these factors and they introducd the .NET considering ll these factors. All unwanted complexities are eliminated and a pure object oriented programming model was introduced. This makes programmer's life very easy. 
+
+.NET framework comes with a single class library. And thats all programmers need to learn!! Whether they write the code in C# or VB.NET or J#, it doesn't matter, you just use the .NET class library. There is no classes specific to any language. There is nothing more you can do in a language, which you can't do in any other .NET language. You can write code in C# or VB.NET with the same number of lines of code, same performance and same efficiency, because eveyone uses same .NET class library. 
+
+What is .NET ? 
+*  It is a platform neutral framework. 
+*  Is a layer between the operating system and the programming language. 
+*  It supports many programming languages, including VB.NET, C# etc. 
+*  .NET provides a common set of class libraries, which can be accessed from any .NET based programming language. There will not be separate set of classes and libraries for each language. If you know any one .NET language, you can write code in any .NET language!! 
+*  In future versions of Windows, .NET will be freely distributed as part of operating system and users will never have to install .NET separately. 
+
+What is Not ? 
+*  .NET is not an operating system. 
+*  .NET is not a programming language. 
+
+".NET is a framework" 
+
+Are you confused by this definition? Well, that is OK. It is really confusing! 
+
+We cannot define .NET as a 'single thing'. It is a new, easy, and extensive rogramming platform. It is not a programming language, but it supports several programming languages. By default .NET comes with few programmig languages including C## (C Sharp), VB.NET, J# and managed C++. .NET is a common platform for all the supported languages. It gives a common class library, which can be caled from any of the supported languages. So, developers need not learn many libraries when they switch to a different language. Only the syntax is different for each language. 
+
+When you write code in any language and compile, it will be converted to an 'Intermediate Language' (Microsoft Intermediate Language - MSIL). So, your compiled executable contains the IL and not really executable machine language. When the .NET application runs, the .NET framework in the target computer take care of the execution. (To run a .NET application, the target computer should have .NET framework installed.) The .NET framework converts the calls to .NET class libraries to the corresponding APIs of the Operating system. 
+
+Whether you write code in C# or VB.NET, you are calling methods in the same .NET class libraries. The same .NET framework executes the C# and VB.NET applications. So, there won't be any performance difference based on the language you write code. 
+
+What is Visual Studio.NET ? 
+
+Many people always get confused with Visual Studio .NET (VS.NET) and .NET technology. VS.NET is just an editor, provided by Microsoft to help developers write .NET programs easily. VS.NET editor automatically generates lot of code, allows developers to drag and drop controls to a form, provide short cuts to compile and build the application etc. 
+
+VS.NET is not a required thing to do .NET programming. You can simply use a notepad or any other simple editor to write your .NET code!!! And you can compile your .NET programs from the command prompt. 
+
+Well, what I said is true theoretically.. but if you decide to use notepad for .NET programming, by the time you develop few sample applications, Microsoft would have introduced some other new technology and .NET would be utdated. You may not want that. So, let us go by VS.NET, just like every other .NET gus. 
+
+Yu can read more about VisualStudio.NET in the next article. 
+
+.NET supported languages 
+
+Currently .NET supports the following languages: 
+*  C# 
+*  VB.NET 
+*  C++ 
+*  J# The above languages are from Microsoft. Many third parties are writing compilers for other languages with .NET support. 
+
+Difference between VB and VB.NET 
+
+Believe us, there is not much in common between VB and VB.NET other than the name. VB.NET is a totally new programming language. It just retains the syntax of old VB. So, if you are a vb programmer, probably you may like VB.NET than C# just because of the syntax. 
+
+In addition to this, VB.NET still support many of the old VB functions just for backward compatibility. But if you are a serious .NET programmer, we strongly suggest never use old VB functions in VB.NET. So, switching from VB to VB.NET is just like learning a new programming language, with very small similarities between them. 
+
+C# or VB.NET ? Which one to choose ? 
+
+As we menioned in earlier chapters, it makes no much difference. Whether you wrte code in VB.NET or C#, when you compile, your code will get converted to MSIL (Microsoft Intermediate language). It is this MSIL which you dliver to your customer in the form of a DLL or EXE. The MSIL is execued by the same .NET framework, whether you wrote it originally in C# or VB.NET. 
+
+The MSIL generated by C# and VB.NET is almost 99% is the same! Many beleve hat C# has the power of C++ and VB.NET has the user friendliness of VB. That is not true. Both are equally powerfull and friendly. 
+
+B.NET has backwad compatibility with old Visual basic. So, it supports old vb functions. C# is a fresh, clean language. So strongly support using C# instead of VB.NET just for this clean compiler. 
+
+Many old VB guys usually like to stick with VB.NET and are kind of scard of C#. We are sure that you will not take more than few days to git familiar with C# syntax. This online tutorial is based on C# and all samples will be provided in C#. 
+
+Is it platform independant ? 
+
+Many people ask this questin "Java is platform independant, what about .NET ?". 
+
+The answer is "Yes" and "No" ! 
+The code you write is platform independant, because whatever you write is getting compild into MSIL. There is no native code, which depends on your operating system or CPU. But when you execute the MSIL, the .NET framework in the taret sysstem will convert the MSIL into native platform code. 
+
+So, if you run your .NET exe in a WIndows machine, the .NET framework for Windows will convert it into Windows native code and execute. If you run your .NET application in Unix or Linux, the .NET framework for Unix/Linux will convert your code into Unix/Linux native code and execute. So, your code is purely platform independant and runs anywhere! 
+
+But wait, we said it wrong... there is no .NET framework for Unix or Linux available now. Microsoft has written the .NET framework only for Windows. If you or some one else write a .NET framework for other platforms in future, your code will run there too. So, let us wait until someone write .NET framework for Linux before you run your .NET code in Linux. 
+
+Is it worth learning .NET ? 
+
+Are you sure you have a very good job now and your job is safe for next 10 years? Then, probably you don't need to waste your time to learn this new technology. 
+
+If you are nt sure about the future of your job, better spend sometime and make sure you have fuel to run for next few years! 
+
+How long it will take to learn .NET ? 
+
+It all depends on how fast you can learn. If you are familiar with Visual Basic or C++, you can come to speed in .NET within 1-2 months. If you are a new to programming, we estimate 6 months will be a reasonable period to become comfortable with .NET world. 
+
+Future of .NET 
+
+Microsoft is moving all its technologies to be .NET based or .NET related. The next version of SQL Server even supports writing stored procedures in .NET languages. .NET runtime will be part of all Operating Systems by default. 
+In short, if you like to work on Microsoft technologies for programming, .NET would b the only choice you will have. 
