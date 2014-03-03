@@ -39,6 +39,7 @@ string refineString(string checkStr)
 	cout << "deleted '" << tempChar << "' from \"" << checkStr << "\"" << endl;
       if(tempString.length() > 0)
 	{
+	  //refineString again
 	  tempString = refineString(tempString);
 	}
       else
@@ -50,9 +51,13 @@ string refineString(string checkStr)
       if(debug)
 	cout << tempChar << endl;
       checker = refineList.find (tempChar);
-      if(checker == refineList.end()){}
+      if(checker == refineList.end())
+	{
+	  //no unwanted character found, do nothing
+	}
       else
 	{
+	  //save tempstring as a substring of itself omiting the first character
 	  tempString = tempString.substr(0,tempString.length()-1);
 	  if(debug) 
 	    cout << "deleted '" << tempChar << "' from " << "\"" << checkStr << "\"" << endl;
