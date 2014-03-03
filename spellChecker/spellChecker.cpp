@@ -112,6 +112,8 @@ bool Dictionary::fillDictionary(string fname)
  */
 void Dictionary::checkSpelling(string fname)
 {
+  if(fname == "")
+    return;
   fstream inStream;
   inStream.open(fname.c_str(), ios::in);
   if(inStream.fail() || inStream.eof())
